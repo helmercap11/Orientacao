@@ -523,7 +523,7 @@ class _DialogInitialState extends State<DialogInitial>
             const SizedBox(height: 10),
             ElevatedButton.icon(
               onPressed: () => Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (_) => const HomePage())),
+                  MaterialPageRoute(builder: (_) => const WellCome())),
               icon: const Icon(Icons.replay),
               label: const Text('FINALIZAR'),
             ),
